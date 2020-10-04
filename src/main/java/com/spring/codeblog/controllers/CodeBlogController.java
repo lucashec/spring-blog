@@ -45,10 +45,11 @@ public class CodeBlogController {
 	@RequestMapping(value="/newpost", method= RequestMethod.POST)
 	public String savePost(@Valid Post post, BindingResult result, RedirectAttributes attributes){
 		if(result.hasErrors()) {
+			attributes.addFlashAttribute("message","Verify the fields!");
 			return "redirect:/newpost";
 		}
 		post.setData(LocalDate.now());
 		blogService.save(post);
-		return "redirect:/post";
+		return "redirect:/posts";
 	}
 }
