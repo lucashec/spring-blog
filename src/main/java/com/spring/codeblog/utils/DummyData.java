@@ -18,7 +18,6 @@ public class DummyData {
 
     @PostConstruct
     public void savePosts(){
-    	System.out.println("Chegou");
     	
         List<Post> postList = new ArrayList<>();
         Post post1 = new Post();
