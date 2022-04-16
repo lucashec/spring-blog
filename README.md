@@ -14,7 +14,7 @@ Blog pessoal para publicar posts construído com Spring Boot com as ferramentas:
 
 ### Telas
 <p align="center">
-    <img src="./screens/img1.png">
-    <img src="./screens/img2.png">
-    <img src="./screens/img3.png">
+    <img src="https://github.com/lucashec/spring-blog/blob/master/screens/img1.png?raw=true">
+    <img src="https://github.com/lucashec/spring-blog/blob/master/screens/img2.png?raw=true">
+    <img src="https://github.com/lucashec/spring-blog/blob/master/screens/img3.png?raw=true">
 </p>
